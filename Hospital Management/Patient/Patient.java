@@ -24,7 +24,6 @@ public class Patient extends Person  {
         return condition;
     }
 
-    @Override
     public String getDetails() {
        
         return "Patient: " + name + ", Age: " + age + ", ID: " + patientId + ", Condition: " + condition;
